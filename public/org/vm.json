@@ -1,0 +1,7 @@
+{
+    "name": "Villette Makerz",
+    "image": "http://certificats.villettemakerz.com/org/vm.png",
+    "url": "http://certificats.villettemakerz.com",
+    "email": "daniel@villettemakerz.com",
+    "revocationList": "http://certificats.villettemakerz.com/dc/revoked.json"
+  }

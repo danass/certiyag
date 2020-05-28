@@ -1,0 +1,14 @@
+{
+  "name": "Pensée systémique",
+  "description": "Comprendre la pensée systémique, les nouvelles économies, l’approche en coût global et l’écologie industrielle et territoriale ",
+  "niveau": "1",
+  "issuer": "http://certificats.villettemakerz.com/org/vm.json",
+  "tags": [
+    "coût global",
+    "nouvelles économies",
+    "écologie industrielle",
+    "écologie territoriale"
+  ],
+  "image": "http://certificats.villettemakerz.com/dc/pensee.png",
+  "criteria": "http://certificats.villettemakerz.com"
+}
