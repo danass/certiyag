@@ -10,7 +10,6 @@ function getId(id, file) {
     return _.find(file, function(o) { return o.id == id });
 }
 
-//cData.map(r => (r.fields.Personne.map(personne => console.log( getId(personne).fields.Nom ) )))
 
 let certificats = {}
 let badgeAssertion = {}
@@ -46,20 +45,21 @@ pData.forEach(function(rec, i, a) {
         badgeAssertion[o].verify.type = "hosted"
         badgeAssertion[o].verify.url = getId(o, cData).fields.site + "dc/" + filename + "/" + filename + "-"+prenomfile+"-"+badgeAssertion[o].uid + ".json"
        
+
         certificats[i].Certificats[io] = {}
         certificats[i].Certificats[io].name = getId(o, cData).fields.Nom 
         certificats[i].Certificats[io].description = getId(o, cData).fields.Info 
         certificats[i].Certificats[io].niveau = getId(o, cData).fields.Niveau 
         certificats[i].Certificats[io].issuer = getId(o, cData).fields.issuer 
         certificats[i].Certificats[io].tags = getId(o, cData).fields.tags 
-        certificats[i].Certificats[io].image = getId(o, cData).fields.image
+        certificats[i].Certificats[io].image = getId(o, cData).fields.site + "dc/" + filename + ".png"
         certificats[i].Certificats[io].criteria = getId(o, cData).fields.criteria
         
-        //fs.writeFileSync("public/dc/" + filename + ".json", JSON.stringify(certificats[i].Certificats[io], null, 1 )) // create badgefile
+        fs.writeFileSync("public/dc/" + filename + ".json", JSON.stringify(certificats[i].Certificats[io], null, 1 )) // create badgefile
         fs.mkdirSync("./public/dc/" + filename,  {recursive: true}); //create folders
         fs.writeFileSync("./public/dc/" + filename + "/" + filename + "-"+prenomfile+"-"+badgeAssertion[o].uid + ".json" , JSON.stringify(badgeAssertion[o], null, 2)) // create assertion
     
-        let assert = getId(o, cData).fields.site + "./public/dc/" + filename + "/" + filename + "-"+prenomfile+"-"+badgeAssertion[o].uid + ".json"
+        let assert = getId(o, cData).fields.site + "dc/" + filename + "/" + filename + "-"+prenomfile+"-"+badgeAssertion[o].uid + ".json"
         if (!ledger[i]) {ledger[i] = {}}
         ledger[i].Prenom = rec.fields.Prenom
         if (!ledger[i].certs) {ledger[i].certs = {}}
@@ -67,14 +67,23 @@ pData.forEach(function(rec, i, a) {
         if (!ledger[i].certs.uuid) {ledger[i].certs.uuid = {}}
         ledger[i].certs.uuid[io] = badgeAssertion[o].uid
 
+        fs.writeFileSync("./public/dc/dc-ledger.json",  JSON.stringify(ledger, null, 4))
+
         async function main() {
         const font = await Jimp.loadFont(Jimp.FONT_SANS_32_BLACK);
         const image = await Jimp.read("./public/dc/" + filename + ".png");
   
   
         image.print(font, 200, 700, rec.fields.Prenom + " " + rec.fields.Nom);
-        await image.writeAsync("./public/dc/" + filename + "/" + filename + "-"+prenomfile+"-"+ledger[i].certs.uuid[io] + ".png");}
-        main()
-        //console.log(badgeAssertion[o].uid)
-        })
-        git
+        await image.writeAsync("./public/dc/" + filename + "/" + filename + "-"+prenomfile+"-"+ledger[i].certs.uuid[io] + ".png");
+        }
+       // main()
+    })
+}}
+catch(e) {console.log(e)}
+})
+
+module.exports = {
+    certificats:certificats,
+}
+
