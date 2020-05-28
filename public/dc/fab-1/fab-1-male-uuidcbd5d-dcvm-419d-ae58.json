@@ -1,0 +1,17 @@
+{
+  "uid": "uuidcbd5d-dcvm-419d-ae58",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$af79dea735c68aeee09de395aec9ede69fa9e9a6e29b62b7650d550ccdbf38df",
+    "email": "maelemauget@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/fab-1/fab-1-male-uuidcbd5d-dcvm-419d-ae58.png",
+  "issuedOn": 1590679425,
+  "badge": "http://certificats.villettemakerz.com/dc/fab-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/fab-1/fab-1-male-uuidcbd5d-dcvm-419d-ae58.json"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "uid": "uuid28868-dcvm-44f6-bcd2",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$e70133da35e991460880d322c6cdfb9c3938aefbfc7a8272de37f5379f62d049",
+    "email": "karineruffel@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/upc-1/upc-1-karine-uuid28868-dcvm-44f6-bcd2.png",
+  "issuedOn": 1590679425,
+  "badge": "http://certificats.villettemakerz.com/dc/upc-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/upc-1/upc-1-karine-uuid28868-dcvm-44f6-bcd2.json"
+  }
+}

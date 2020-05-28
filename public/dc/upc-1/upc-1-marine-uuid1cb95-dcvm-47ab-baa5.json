@@ -1,0 +1,17 @@
+{
+  "uid": "uuid1cb95-dcvm-47ab-baa5",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$a7446b154886a5923a11fbedecae14d228c075244c4067cb7e0ec488d330aafe",
+    "email": "marine.arnet.wolf@hotmail.fr"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/upc-1/upc-1-marine-uuid1cb95-dcvm-47ab-baa5.png",
+  "issuedOn": 1590679425,
+  "badge": "http://certificats.villettemakerz.com/dc/upc-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/upc-1/upc-1-marine-uuid1cb95-dcvm-47ab-baa5.json"
+  }
+}

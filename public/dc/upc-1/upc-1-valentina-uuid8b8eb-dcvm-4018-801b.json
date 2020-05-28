@@ -1,0 +1,17 @@
+{
+  "uid": "uuid8b8eb-dcvm-4018-801b",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$dcaf3bb0252f8c442bccd32f91141af24fedbfcbd59b807a22de42ffa9584191",
+    "email": "v@valentinatortorella.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/upc-1/upc-1-valentina-uuid8b8eb-dcvm-4018-801b.png",
+  "issuedOn": 1590679425,
+  "badge": "http://certificats.villettemakerz.com/dc/upc-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/upc-1/upc-1-valentina-uuid8b8eb-dcvm-4018-801b.json"
+  }
+}

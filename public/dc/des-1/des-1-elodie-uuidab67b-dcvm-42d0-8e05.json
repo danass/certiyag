@@ -1,0 +1,17 @@
+{
+  "uid": "uuidab67b-dcvm-42d0-8e05",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$661b2767b02ed4caea5ecd96028a6c61f3984abb19f0626c8a1f114cf28e020b",
+    "email": "elodiepeng@yahoo.fr"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/des-1/des-1-elodie-uuidab67b-dcvm-42d0-8e05.png",
+  "issuedOn": 1590679425,
+  "badge": "http://certificats.villettemakerz.com/dc/des-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/des-1/des-1-elodie-uuidab67b-dcvm-42d0-8e05.json"
+  }
+}
