@@ -44,7 +44,7 @@ pData.forEach(function(rec, i, a) {
 
 
         rec.fields.Certification.forEach(function(o, io, ia)  {
-        let filename = getId(o, cData).fields.Nom.replace(/[^\w]/g,'').toLowerCase().substring(0, 3)    
+        let filename = getId(o, cData).fields.Nom.replace(/[^\w]/g,'').toLowerCase().substring(0, 3) + "-" + Math.floor(Date.now().toString().substring(8)/100 )
 
         badgeAssertion[o] = {}
         badgeAssertion[o].uid = uuid()
@@ -71,7 +71,6 @@ pData.forEach(function(rec, i, a) {
          certificats[i].Certificats[io].tags = getId(o, cData).fields.tags 
          certificats[i].Certificats[io].image = getId(o, cData).fields.image
          certificats[i].Certificats[io].criteria = getId(o, cData).fields.criteria
-
          console.log(badgeAssertion[o])
          })
     }

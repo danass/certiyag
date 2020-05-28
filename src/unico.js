@@ -6,7 +6,7 @@ function unico(name) {
     Object.entries(chuc).find(e => 
         { if (e[1].name.includes(
         ""+name
-        .toUpperCase())) {
+        .toUpperCase())) {git
             console.log(String.fromCodePoint(parseInt(e[1].value, 16)), e[1]. name,e[1].symbol)
         }})
     }
