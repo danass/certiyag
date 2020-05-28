@@ -1,0 +1,17 @@
+{
+  "uid": "uuidcb110-dcvm-4f5f-8373",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$770192620d66366c2e09ffc7262814370613fbf7eba415ab3bceff4ac4f600a6",
+    "email": "clementine.mechri@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/des-1/des-1-clmentine-uuidcb110-dcvm-4f5f-8373.png",
+  "issuedOn": 1590676820,
+  "badge": "http://certificats.villettemakerz.com/dc/des-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/des-1/des-1-clmentine-uuidcb110-dcvm-4f5f-8373.json"
+  }
+}

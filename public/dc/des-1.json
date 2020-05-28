@@ -1,0 +1,13 @@
+{
+ "name": "Design circulaire",
+ "description": "Comprendre et appliquer les méthodes de Design thinking, d'éco-conception, de design circulaire et de design d'opportunité",
+ "niveau": "1",
+ "issuer": "http://certificats.villettemakerz.com/org/vm.json",
+ "tags": [
+  "design thinking",
+  "éco-conception",
+  "design circulaire"
+ ],
+ "image": "http://certificats.villettemakerz.com/dc/design.png",
+ "criteria": "http://certificats.villettemakerz.com"
+}

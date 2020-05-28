@@ -1,0 +1,17 @@
+{
+  "uid": "uuid8742b-dcvm-4a4e-8283",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$509a34f3e6f1756aa7ec194f1324e683c153ac097d6720739fff4809403c4878",
+    "email": "cl.delavault@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/fab-1/fab-1-claire-uuid8742b-dcvm-4a4e-8283.png",
+  "issuedOn": 1590676820,
+  "badge": "http://certificats.villettemakerz.com/dc/fab-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/fab-1/fab-1-claire-uuid8742b-dcvm-4a4e-8283.json"
+  }
+}
