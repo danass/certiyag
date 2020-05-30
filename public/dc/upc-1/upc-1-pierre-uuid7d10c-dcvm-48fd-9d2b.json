@@ -1,0 +1,17 @@
+{
+  "uid": "uuid7d10c-dcvm-48fd-9d2b",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$71a4f37a3b58a730f852c1313accbd9c5e2f4ed62d569983c9bc860cd12b95e6",
+    "email": "pfmargas@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/upc-1/upc-1-pierre-uuid7d10c-dcvm-48fd-9d2b.png",
+  "issuedOn": 1590813770,
+  "badge": "http://certificats.villettemakerz.com/dc/upc-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/upc-1/upc-1-pierre-uuid7d10c-dcvm-48fd-9d2b.json"
+  }
+}

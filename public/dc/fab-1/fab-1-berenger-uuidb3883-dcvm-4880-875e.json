@@ -1,0 +1,17 @@
+{
+  "uid": "uuidb3883-dcvm-4880-875e",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$a3761bc767bc9c1c5300e6fe8a0a8f7eae57a9b286e53025184f0881b0f2bbf6",
+    "email": "berengerchaumont@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/fab-1/fab-1-berenger-uuidb3883-dcvm-4880-875e.png",
+  "issuedOn": 1590813770,
+  "badge": "http://certificats.villettemakerz.com/dc/fab-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/fab-1/fab-1-berenger-uuidb3883-dcvm-4880-875e.json"
+  }
+}

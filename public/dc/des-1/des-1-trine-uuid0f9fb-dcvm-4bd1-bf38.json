@@ -1,0 +1,17 @@
+{
+  "uid": "uuid0f9fb-dcvm-4bd1-bf38",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$6049f0c646aefa9e265d44f6f8dc1b8bfccb339f9c85fdca48b99f236f50cf36",
+    "email": "trinecavling@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/des-1/des-1-trine-uuid0f9fb-dcvm-4bd1-bf38.png",
+  "issuedOn": 1590813770,
+  "badge": "http://certificats.villettemakerz.com/dc/des-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/des-1/des-1-trine-uuid0f9fb-dcvm-4bd1-bf38.json"
+  }
+}

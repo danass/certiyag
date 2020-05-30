@@ -1,0 +1,17 @@
+{
+  "uid": "uuid4634e-dcvm-4539-9468",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$dc8b977916ae0a9de260e7187b3056da1f62478ba405c1aed973e02ba3f55c15",
+    "email": "byjb@protonmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/des-1/des-1-joe-uuid4634e-dcvm-4539-9468.png",
+  "issuedOn": 1590813770,
+  "badge": "http://certificats.villettemakerz.com/dc/des-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/des-1/des-1-joe-uuid4634e-dcvm-4539-9468.json"
+  }
+}

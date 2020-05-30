@@ -66,27 +66,34 @@ pData.forEach(function(rec, i, a) {
         ledger[i].Prenom = rec.fields.Prenom
         ledger[i].Nom = rec.fields.Nom
         if (!ledger[i].certs) {ledger[i].certs = {}}
-        ledger[i].certs[io] = assert
-        if (!ledger[i].certs.uuid) {ledger[i].certs.uuid = {}}
-        ledger[i].certs.uuid[io] = badgeAssertion[o].uid
-
+        if (!ledger[i].certs[io]) {ledger[i].certs[io] = {}}
+        
+        //if (!ledger[i].certs.uuid) {ledger[i].certs.uuid = {}}
+        ledger[i].certs[io].uuid = badgeAssertion[o].uid
+        ledger[i].certs[io].url = assert
+        ledger[i].certs[io].assertion = badgeAssertion[o]
+        
         fs.writeFileSync("./public/dc-ledger.json",  JSON.stringify(ledger, null, 4))
 
         async function main() {
         const font = await Jimp.loadFont(Jimp.FONT_SANS_32_BLACK);
         const image = await Jimp.read("./public/dc/" + filename + ".png");
   
-  
         image.print(font, 200, 700, rec.fields.Prenom + " " + rec.fields.Nom);
-        await image.writeAsync("./public/dc/" + filename + "/" + filename + "-"+prenomfile+"-"+ledger[i].certs.uuid[io] + ".png");
+        await image.writeAsync("./public/dc/" + filename + "/" + filename + "-"+prenomfile+"-"+ledger[i].certs[io].uuid + ".png");
         }
+        try {
         main() // run the picture train !
+    }
+    catch(e) {console.log(e)}
     })
 }}
 catch(e) {console.log(e)}
 })
 
-module.exports = {
-    certificats:certificats
+exports.certiyag = {
+    certificats:certificats,
+    ledger:ledger
 }
 
+module.exports = this.certiyag

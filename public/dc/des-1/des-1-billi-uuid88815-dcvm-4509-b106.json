@@ -1,0 +1,17 @@
+{
+  "uid": "uuid88815-dcvm-4509-b106",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$88e02005e77654a2d81cb9fc62a5ee081ac97260021846b29a5956588fda30d8",
+    "email": "bilely.drame@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/des-1/des-1-billi-uuid88815-dcvm-4509-b106.png",
+  "issuedOn": 1590813770,
+  "badge": "http://certificats.villettemakerz.com/dc/des-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/des-1/des-1-billi-uuid88815-dcvm-4509-b106.json"
+  }
+}
