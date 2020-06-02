@@ -1,0 +1,17 @@
+{
+  "uid": "uuidfafd9-dcvm-45f9-b986",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$bd9c7ca5bfd4dc9414e86153290cbb8fa717d23276c9790d66e3602ee3142a20",
+    "email": "brodovlad@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/pen-1/pen-1-vladimir-uuidfafd9-dcvm-45f9-b986.png",
+  "issuedOn": 1591071478,
+  "badge": "http://certificats.villettemakerz.com/dc/pen-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/pen-1/pen-1-vladimir-uuidfafd9-dcvm-45f9-b986.json"
+  }
+}

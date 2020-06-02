@@ -1,0 +1,11 @@
+{
+ "name": "Certification de Formation",
+ "description": "Certificat de fin de formation attestant de la réussite et du serieux dans l'apprentissage, dans le cadre de la formation dispensée par l'Institut de Formation de Villette Makerz, Paris.",
+ "niveau": "1",
+ "issuer": "http://certificats.villettemakerz.com/org/vm.json",
+ "tags": [
+  "diplôme"
+ ],
+ "image": "http://certificats.villettemakerz.com/dc/cer-1.png",
+ "criteria": "http://certificats.villettemakerz.com"
+}

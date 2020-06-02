@@ -1,0 +1,17 @@
+{
+  "uid": "uuid3a2ca-dcvm-43a7-8abe",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$d40d87b2daccb8b2a906e77b2c3e12f2de5c377abdd771ec3dbcb831b56d33fd",
+    "email": "nastia.yombo@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/des-1/des-1-nastia-uuid3a2ca-dcvm-43a7-8abe.png",
+  "issuedOn": 1591071478,
+  "badge": "http://certificats.villettemakerz.com/dc/des-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/des-1/des-1-nastia-uuid3a2ca-dcvm-43a7-8abe.json"
+  }
+}

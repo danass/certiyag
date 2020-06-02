@@ -1,0 +1,49 @@
+html
+  head
+    title= title
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+    link(rel="stylesheet" type="text/css" href="https://github.com/Semantic-Org/Semantic-UI-CSS/blob/master/semantic.min.css")
+    script(src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous")
+    script(src="https://github.com/Semantic-Org/Semantic-UI-CSS/blob/master/semantic.min.js")
+  body
+    div(class="container ")
+      div(class="row ")
+        div(class="col m-2")
+      div(class="" style="background: #eaeff3")
+        div(class="row ")
+          div(class="col")
+            img(class= " img-responsive  float-left m-3 center " style="min-width:40%; max-width:50%;" src="/org/logo.png")
+          div(class="col m-5") 
+            img(class= "img-responsive mx-auto d-block"  style="min-width:60%; max-width:80%;" src="/org/logo2.png")         
+          div(class="col m-3")
+            img(class= " img-responsive float-right" style="min-width:30%; max-width:50%;" src= qr)
+        div(class="mx-auto" style="width:75%")    
+          div(class="row ")
+            div(class="col m-2 text-center display-4") Certificat de formation
+          div(class="row ")
+             div(class="col m-4 lead text-center  ") Ce diplôme est attribué à: 
+          div(class="row ")
+             h1(class="col m-2  text-center  ")= prenom + " " + nom          
+          div(class="row ")
+            div(class="col m-2  text-center font-italic ") attestant de la réussite et du serieux dans l'apprentissage, dans le cadre de la formation dispensée par l'Institut de Formation de Villette Makerz, Paris.
+          div(class="row ")
+             q(class="col m-4 display-5 text-center " style="font-size:250%; ")= "Design Circulaire - Apprendre par la Matière 2020"
+          div(class="row ")
+             div(class="col m-1  text-center " style="font-size:100%") Cette formation en langue française, d'une durée de 3 mois à temps plein, est sanctionnée par le présent diplôme qui atteste de l'acquisition des compétences suivantes:
+        div(class="row")
+          div(class="col  m-2")
+              img(src="/dc/coo-1.png" style="min-width:35%; max-width:95%;")      
+          div(class="col  m-2 ")    
+              img(src="/dc/des-1.png" style="min-width:35%; max-width:95%;")    
+          div(class="col  m-2")     
+              img(src="/dc/fab-1.png" style="min-width:35%; max-width:95%;") 
+          div(class="col  m-2")      
+              img(src="/dc/pen-1.png" style="min-width:35%; max-width:95%;")    
+          div(class="col  m-2")     
+              img(src="/dc/pos-1.png" style="min-width:35%; max-width:95%;")      
+          div(class="col  m-2")    
+              img(src="/dc/upc-1.png" style="min-width:35%; max-width:95%;")
+      div(class="row")
+        div(class="col  m-2" style="background: white")= "Ce certificat a été édité le  02/06/2020, et est signé numériquement. "
+        div(class="col  m-2")= "Ce certificat est accessible sur le site http://certificats.villettemakerz.com/" + ledger.uid                  
+    
