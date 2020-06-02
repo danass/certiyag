@@ -1,7 +1,7 @@
 const fs = require("fs")
 
 
-const ledger = JSON.parse(fs.readFileSync("./public/dc-ledger.json", "utf8"))
+const ledger = JSON.parse(fs.readFileSync(process.cwd() + "/public/dc-ledger.json", "utf8"))
 let ledgerarray = []
 for (e in ledger) {
    for(c in ledger[e].certs) {
