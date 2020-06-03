@@ -1,23 +1,17 @@
 //certificats site
 const fs = require("fs")
-const { ledgerarray } = require("../src/ledgerarray.js")
+const { ledgerarray, ledgercerts } = require("../src/ledgerarray.js")
 
 var QRCode = require('qrcode')
 const app = require('express')();
 const express = require('express');
 const server = require('http').createServer(app).listen(9000);
-//const server1 = require('http').createServer(app).listen(82);
-
-//const ledger = JSON.parse(fs.readFileSync("./public/dc-ledger.json", "utf8"))
-
-
+const server1 = require('http').createServer(app).listen(80);
 
 
 module.exports = async function(site){
-  const foldir = process.cwd()
+const foldir = process.cwd()
 
-
-console.log(process.cwd())
   app.use(express.static(process.cwd() + '/public'))
   app.set("view engine", "pug");
  // app.use(express.static(foldir));
@@ -27,7 +21,9 @@ console.log(process.cwd())
 
       res.render("certificats/index", {
         title: "Digital certification",
-        ledger : ledgerarray
+        ledger : ledgerarray,
+        ledgercerts : ledgercerts
+
 
       });
     
@@ -47,7 +43,7 @@ console.log(process.cwd())
       res.render("certificats/certificat", {
         title: "Digital certification",
         ledger: l,
-        url: "http://certificats.villettemakerz.com/dc/" + l.uid,
+        url: "dc/" + l.uid,
         prenom: l.Prenom,
         nom: l.Nom,
         qr:qr
@@ -60,3 +56,5 @@ console.log(process.cwd())
 
 
 }
+
+console.log(ledgerarray)

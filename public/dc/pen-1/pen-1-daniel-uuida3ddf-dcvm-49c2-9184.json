@@ -1,0 +1,17 @@
+{
+  "uid": "uuida3ddf-dcvm-49c2-9184",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$f5cdec2681a2e773bf645dca662c5b78dec55a5e00e21df2bfb33ce4cebac231",
+    "email": "daniel@villettemakerz.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/pen-1/pen-1-daniel-uuida3ddf-dcvm-49c2-9184.png",
+  "issuedOn": 1591227878,
+  "badge": "http://certificats.villettemakerz.com/dc/pen-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/pen-1/pen-1-daniel-uuida3ddf-dcvm-49c2-9184.json"
+  }
+}

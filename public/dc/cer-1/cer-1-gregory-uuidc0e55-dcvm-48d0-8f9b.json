@@ -1,0 +1,17 @@
+{
+  "uid": "uuidc0e55-dcvm-48d0-8f9b",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$93521b1e9f1ff9dd360622c36ba874b4e648c69cf8e48aaa3e3bba96773e33fc",
+    "email": "gregory.lebourdais@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/cer-1/cer-1-gregory-uuidc0e55-dcvm-48d0-8f9b.png",
+  "issuedOn": 1591227879,
+  "badge": "http://certificats.villettemakerz.com/dc/cer-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/cer-1/cer-1-gregory-uuidc0e55-dcvm-48d0-8f9b.json"
+  }
+}

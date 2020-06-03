@@ -1,0 +1,17 @@
+{
+  "uid": "uuid18685-dcvm-4b09-aa9f",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$71a4f37a3b58a730f852c1313accbd9c5e2f4ed62d569983c9bc860cd12b95e6",
+    "email": "pfmargas@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/des-1/des-1-pierre-uuid18685-dcvm-4b09-aa9f.png",
+  "issuedOn": 1591227879,
+  "badge": "http://certificats.villettemakerz.com/dc/des-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/des-1/des-1-pierre-uuid18685-dcvm-4b09-aa9f.json"
+  }
+}

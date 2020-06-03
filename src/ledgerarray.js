@@ -13,7 +13,17 @@ for (e in ledger) {
     ledgerarray.push(theAssertion)
    }}
 }
-console.log(ledgerarray)
+let ledgercerts = []
+for (e in ledger) {
+   for(c in ledger[e].certs) {
+   if (true) {
+    var theAssertion = ledger[e].certs[c].assertion
+    theAssertion.Prenom = ledger[e].Prenom
+    theAssertion.Nom = ledger[e].Nom
+    ledgercerts.push(theAssertion)
+   }}
+}
+console.log(ledgercerts)
 
-module.exports = { ledgerarray }
+module.exports = { ledgerarray, ledgercerts }
 exports.ledger = this.module

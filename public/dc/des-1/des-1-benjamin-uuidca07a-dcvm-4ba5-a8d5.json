@@ -1,0 +1,17 @@
+{
+  "uid": "uuidca07a-dcvm-4ba5-a8d5",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$88162a975f88ec7062eb7dd6f69a565a182386134fcb36169cacf64e861c4979",
+    "email": "benjaminbouillon@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/des-1/des-1-benjamin-uuidca07a-dcvm-4ba5-a8d5.png",
+  "issuedOn": 1591227879,
+  "badge": "http://certificats.villettemakerz.com/dc/des-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/des-1/des-1-benjamin-uuidca07a-dcvm-4ba5-a8d5.json"
+  }
+}

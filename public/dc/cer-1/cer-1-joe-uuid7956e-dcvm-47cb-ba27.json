@@ -1,0 +1,17 @@
+{
+  "uid": "uuid7956e-dcvm-47cb-ba27",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$dc8b977916ae0a9de260e7187b3056da1f62478ba405c1aed973e02ba3f55c15",
+    "email": "byjb@protonmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/cer-1/cer-1-joe-uuid7956e-dcvm-47cb-ba27.png",
+  "issuedOn": 1591227879,
+  "badge": "http://certificats.villettemakerz.com/dc/cer-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/cer-1/cer-1-joe-uuid7956e-dcvm-47cb-ba27.json"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "uid": "uuid09df9-dcvm-44b7-a622",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$014add722612fce8a85aeaae24d7b74c127fcdd86781c32163b7d05dd3c097d6",
+    "email": "kristina.hakala@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/coo-1/coo-1-kristina-uuid09df9-dcvm-44b7-a622.png",
+  "issuedOn": 1591227879,
+  "badge": "http://certificats.villettemakerz.com/dc/coo-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/coo-1/coo-1-kristina-uuid09df9-dcvm-44b7-a622.json"
+  }
+}

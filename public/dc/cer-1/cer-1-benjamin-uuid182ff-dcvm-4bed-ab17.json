@@ -1,0 +1,17 @@
+{
+  "uid": "uuid182ff-dcvm-4bed-ab17",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$88162a975f88ec7062eb7dd6f69a565a182386134fcb36169cacf64e861c4979",
+    "email": "benjaminbouillon@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/cer-1/cer-1-benjamin-uuid182ff-dcvm-4bed-ab17.png",
+  "issuedOn": 1591227879,
+  "badge": "http://certificats.villettemakerz.com/dc/cer-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/cer-1/cer-1-benjamin-uuid182ff-dcvm-4bed-ab17.json"
+  }
+}

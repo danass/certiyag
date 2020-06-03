@@ -1,0 +1,17 @@
+{
+  "uid": "uuid670be-dcvm-446a-b3ed",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$e0de1ac24b28311d7f42e16b7e96a31ed556f5ffe0e6804598919e35004dfc54",
+    "email": "agathe.rc@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/upc-1/upc-1-agathe-uuid670be-dcvm-446a-b3ed.png",
+  "issuedOn": 1591227879,
+  "badge": "http://certificats.villettemakerz.com/dc/upc-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/upc-1/upc-1-agathe-uuid670be-dcvm-446a-b3ed.json"
+  }
+}

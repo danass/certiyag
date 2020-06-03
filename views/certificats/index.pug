@@ -4,6 +4,14 @@ html
     link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
   body
     main(role="main")
-      div(class="container")    
+      
       for p in ledger
-        div()= p
+        div()= p.Prenom
+        div()= p.assertions
+        div(class="container")    
+          div(class="row row-cols-4")        
+            for b in ledgercerts
+              if (b.Prenom == p.Prenom) 
+                div(class="col")
+                  a(href =b.verify.url)
+                    img(src=b.image style="width: 100%; object-fit: cover;" class="img-responsive") 

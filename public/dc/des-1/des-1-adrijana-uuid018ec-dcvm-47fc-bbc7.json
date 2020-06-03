@@ -1,0 +1,17 @@
+{
+  "uid": "uuid018ec-dcvm-47fc-bbc7",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "designcirculairevillettemakerz",
+    "identity": "sha256$da82eeb54d4a5562b44c7f4e61f4cad6468727f0277ddf100ddd2bae172dd91c",
+    "email": "adrijana.alavanja@gmail.com"
+  },
+  "image": "http://certificats.villettemakerz.com/dc/des-1/des-1-adrijana-uuid018ec-dcvm-47fc-bbc7.png",
+  "issuedOn": 1591227879,
+  "badge": "http://certificats.villettemakerz.com/dc/des-1.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://certificats.villettemakerz.com/dc/des-1/des-1-adrijana-uuid018ec-dcvm-47fc-bbc7.json"
+  }
+}
