@@ -7,9 +7,9 @@ html
       div(class="container")    
         div(class="text-center display-1 p-5")= "Diplomés"
         div(class="text-center lead p-5")= "Design Circulaire - Promo 2020 // Victor Pananek"
-          div(class="row p-5")        
+          div(class="row p-5 row-cols-3")        
            for p in ledger
-              div(class="w-25")
+              div(class="col-xl ")
                 a(class="display-4" href='dc/' + p.uid)= p.Prenom 
         div(class="m-1") Pour intégrer vos badges dans un portfolio vous devez copier le lien de chacun des badges sous votre certificat (.json) et les mettres dans votre portfolio.<br> Pour créer un portfolio vous devez créer un compte <a href="https://info.badgr.com/">badgr</a>. Vous pourrez ensuite les intégrer directement dans votre profil linkedin.
         div(class="m-1") Vous pouvez également ajouter votre certificat global sur Linkedin dans l'onglet <b>Licences et certifications</b> de votre profil (exemple sur mon profil linkedin).
