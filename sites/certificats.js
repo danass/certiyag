@@ -6,7 +6,7 @@ var QRCode = require('qrcode')
 const app = require('express')();
 const express = require('express');
 const server = require('http').createServer(app).listen(9000);
-const server1 = require('http').createServer(app).listen(80);
+//onst server1 = require('http').createServer(app).listen(80);
 
 
 
