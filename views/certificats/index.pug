@@ -4,14 +4,11 @@ html
     link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
   body
     main(role="main")
-      
-      for p in ledger
-        div()= p.Prenom
-        div()= p.assertions
-        div(class="container")    
-          div(class="row row-cols-4")        
-            for b in ledgercerts
-              if (b.Prenom == p.Prenom) 
-                div(class="col")
-                  a(href =b.verify.url)
-                    img(src=b.image style="width: 100%; object-fit: cover;" class="img-responsive") 
+      div(class="container")    
+        div(class="text-center display-1 p-5")= "Diplomés"
+        div(class="text-center lead p-5")= "Design Circulaire - Promo 2020 // Victor Pananek"
+          div(class="row p-5")        
+           for p in ledger
+              a(class="col display-4" href='dc/' + p.uid)= p.Prenom 
+        div(class="m-1") Pour intégrer vos badges dans un portfolio vous devez copier le lien de chacun des badges sous votre certificat (.json) et les mettres dans votre portfolio.<br> Pour créer un portfolio vous devez créer un compte <a href="https://info.badgr.com/">badgr</a>. Vous pourrez ensuite les intégrer directement dans votre profil linkedin.
+        div(class="m-1") Vous pouvez également ajouter votre certificat global sur Linkedin dans l'onglet <b>Licences et certifications</b> de votre profil (exemple sur mon profil linkedin).

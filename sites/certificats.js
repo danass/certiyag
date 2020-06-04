@@ -9,6 +9,7 @@ const server = require('http').createServer(app).listen(9000);
 const server1 = require('http').createServer(app).listen(80);
 
 
+
 module.exports = async function(site){
 const foldir = process.cwd()
 
@@ -22,9 +23,7 @@ const foldir = process.cwd()
       res.render("certificats/index", {
         title: "Digital certification",
         ledger : ledgerarray,
-        ledgercerts : ledgercerts
-
-
+        ledgercerts : ledgercerts,
       });
     
       next();
@@ -46,7 +45,10 @@ const foldir = process.cwd()
         url: "dc/" + l.uid,
         prenom: l.Prenom,
         nom: l.Nom,
-        qr:qr
+        qr:qr,
+        ledgercerts : ledgercerts,
+        ledgerarray: ledgerarray
+
 
 
       });
@@ -57,4 +59,4 @@ const foldir = process.cwd()
 
 }
 
-console.log(ledgerarray)
+console.log(ledgercerts)

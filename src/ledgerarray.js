@@ -5,7 +5,6 @@ const ledger = JSON.parse(fs.readFileSync(process.cwd() + "/public/dc-ledger.jso
 let ledgerarray = []
 for (e in ledger) {
    for(c in ledger[e].certs) {
-      console.log(c )
    if (ledger[e].certs[c].assertion.badge == "http://certificats.villettemakerz.com/dc/cer-1.json") {
     var theAssertion = ledger[e].certs[c].assertion
     theAssertion.Prenom = ledger[e].Prenom
@@ -23,7 +22,6 @@ for (e in ledger) {
     ledgercerts.push(theAssertion)
    }}
 }
-console.log(ledgercerts)
 
 module.exports = { ledgerarray, ledgercerts }
 exports.ledger = this.module
