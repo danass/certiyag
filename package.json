@@ -14,7 +14,7 @@
     "crypto-js": "^4.0.0",
     "express": "^4.17.1",
     "jimp": "^0.12.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "openbadges-bakery-v2": "^2.1.0",
     "pug": "^3.0.0",
     "qrcode": "git+https://github.com/soldair/node-qrcode.git#df2ba5a2501b7b0626aa4d310c729639ceaf4e1b"
